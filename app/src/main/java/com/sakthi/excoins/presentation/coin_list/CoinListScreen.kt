@@ -24,19 +24,30 @@ fun CoinListScreen(
     viewModel: CoinListViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value
+
     Box(modifier = Modifier.fillMaxSize()) {
-        LazyColumn (modifier = Modifier.fillMaxSize()){
-            items(state.coins) {coin ->
+
+        LazyColumn(modifier = Modifier.fillMaxSize()) {
+
+            items(state.coins) { coin ->
+
                 CoinListItem(coin = coin, onItemClick = {
                     navController.navigate(Screen.CoinDetailScreen.route + "/${coin.id}")
+
                 })
             }
         }
+
         if (state.error.isNotBlank()) {
-            Text(text = state.error,
+            Text(
+                text = state.error,
                 color = MaterialTheme.colorScheme.error,
                 textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxSize().padding(horizontal = 20.dp).align(Alignment.Center))
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 20.dp)
+                    .align(Alignment.Center)
+            )
         }
 
         if (state.isLoading) {
