@@ -24,12 +24,12 @@ Upon launching the app, users will be presented with a list of cryptocurrencies.
    - Founder's Team Members and Their Roles
 
 ## Dependencies
-- **Jetpack Compose**: For building the user interface with modern UI toolkit.
+- **Jetpack Compose**: For building the user interface with a modern UI toolkit.
 - **Hilt**: For dependency injection to ensure a modular and testable codebase.
 - **Clean Architecture**: Organizational approach for separation of concerns, making the codebase more maintainable and scalable.
 
 
 ## Contact
-For any inquiries or support, please contact [sakthir.developer@gmail.com](mailto:sakthir.developer@gmail.com).
+For any inquiries or support, please contact sakthir.developer@gmail.com.
 
 Thank you for using EX Coin!
