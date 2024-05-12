@@ -28,14 +28,6 @@ Upon launching the app, users will be presented with a list of cryptocurrencies.
 - **Hilt**: For dependency injection to ensure a modular and testable codebase.
 - **Clean Architecture**: Organizational approach for separation of concerns, making the codebase more maintainable and scalable.
 
-## Contributing
-Contributions to EX Coin are welcome! If you'd like to contribute to the project, please follow these steps:
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/MyFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/MyFeature`).
-5. Create a new Pull Request.
-
 
 ## Contact
 For any inquiries or support, please contact [sakthir.developer@gmail.com](mailto:sakthir.developer@gmail.com).
